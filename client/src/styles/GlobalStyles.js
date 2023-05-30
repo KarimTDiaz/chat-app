@@ -11,8 +11,12 @@ const GlobalStyles = createGlobalStyle`
     max-width: 100%;
   }
   body{
+    display: grid;
+    place-items: center;
+   min-height: 100vh;
     margin: 0;
     font-family: sans-serif;
+
   }
   a{
     text-decoration: none;
